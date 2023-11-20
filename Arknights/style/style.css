@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 50px;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #202124;
+}
+
+#home {
+    padding: 10px;
+    min-height: 700px;
+    background-image: url('../images/1034459.jpg');
+    background-size: 100%;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    text-align: center;
+    background-repeat: no-repeat ;
+}
+
+nav a {
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    padding-inline: 5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav {
+    background-color: rgba(0,0,0,0.5);
+    background-image: url('../images/header..png');
+    background-blend-mode: darken;
+    background-size: 100%;
+    width: 100%;
+    padding:2px;
+    position: sticky;
+    top: 0;
+}
+
+header {
+    display: inline;
+}
+
+p {
+    text-align: justify;
+    text-indent: 3em;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: white;
+    padding: .5rem 1.5rem;
+    border-radius: 120px;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+.nav-list li:hover a {
+    background-color: white;
+    color: rgb(50, 60, 55);
+
+}
+
+.title {
+    font-size: 3.5rem;
+    margin-block: 100px;
+}
+
+header #home .download {
+    flex: 1 1;
+    display: flex;
+    
+}
+
+header #home .download a{
+    margin: 20px 30px;
+    justify-content: space-between;
+}
+
+header #home .download img {
+    margin: auto;
+    max-height: 75px;
+}
+
+header #home .download img:hover{
+    opacity: 0.7;
+    transition: all 0.2s;
+}
+
+.content-home{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+header .content-home {
+    flex: 1;
+    max-width: 1000px;
+    margin-inline: auto;
+    align-items: center;
+    display: flex;
+    padding-top: 4rem;
+}
+
+header .content-home .slogan {
+    letter-spacing: 10px;
+    transition: all .15s ease-in;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.5rem;
+    padding: 125px;
+    color: rgba(0,0,0,0.5);
+}
+
+header .content-home .slogan:hover {
+    color: rgba(255, 255, 255, 0.8);
+    background-color: transparent;
+}
+
+#about-game {
+    text-align: center;
+    padding: 50px;
+}
+
+.judul {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1.7rem;
+    border-bottom: 2px white solid; 
+}
+
+.judul img {
+    max-width: 130px;
+}
+
+.judul:hover {
+    left: 400px;
+    transition: all 2s;
+}
+
+.featured-image{
+    max-width: 500px;
+
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images img{
+    max-height: 500px;
+    padding-top: 10px;
+}
+
+.content-game {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.content-game h1 {
+    margin: 0;
+    padding: 20px;
+    font-size: 3rem;
+}
+
+
+.content-game p {
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+#about-operator {
+    padding: 20px;
+    background-color: #202124;
+    display: flex;
+    flex: 2;
+    flex-wrap: wrap;
+}
+
+#about-operator h2{
+    font-size: 3rem;
+    margin: 15px 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+h2:hover{
+    color: rgb(82, 129, 72);
+    transition: 0.2s;
+}
+
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 5px;
+    padding: 20px 20px 50px;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.card p {
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: auto;
+    text-align: justify;
+    margin: 0 30px;
+}
+
+#requirement {
+    padding: 20px;
+    background-color: #202124;
+    display: flex;
+}
+
+.card2 {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 5px;
+    padding: 20px 20px 40px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.content-requirement{
+    margin: 30px 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.crl{
+    width: 50%;
+    
+}
+
+.crl p{
+    text-indent: 0;
+}
+
+#contact {
+    padding: 20px;
+    background-color: #202124;
+    display: flex;
+}
+
+#contact h3{
+    font-size: 2rem;
+    margin: 10px 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-media{
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.social-media ion-icon{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 70px;
+    border-radius: 10px;
+    transition: all .15s;
+    padding: 10px 15px;
+}
+
+.social-media ion-icon:hover{
+    opacity: 0.6;
+}
+
+.social-media img {
+    width: 350px;
+    padding: 10px;
+}
+
+.social-media img:hover {
+    opacity: 0.7;
+}
+
+footer {
+    padding: 0px 20px;
+    display: flex;
+}
+
+footer p {
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    header .content-home .download {
+        flex-direction: column;
+    }
+
+    header .nav-list ul {
+        flex-wrap: wrap;
+    }
+
+
+    main {
+        padding: 1rem 3rem;
+    }
+
+    main #about-operator {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main .card {
+        width: 100%;
+
+    }
+}
